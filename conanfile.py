@@ -20,7 +20,7 @@ class BoostPhoenixConan(ConanFile):
                       "Boost.Proto/1.64.0@bincrafters/testing", \
                       "Boost.Range/1.64.0@bincrafters/testing", \
                       "Boost.Smart_Ptr/1.64.0@bincrafters/testing", \
-                      "Boost.Type_traits/1.64.0@bincrafters/testing", \
+                      "Boost.Type_Traits/1.64.0@bincrafters/testing", \
                       "Boost.Utility/1.64.0@bincrafters/testing"
 
                       #assert1 bind3 config0 core2 function5 fusion5 mpl5 predef0 preprocessor0 proto8 range7 smart_ptr4 type_traits3 utility5

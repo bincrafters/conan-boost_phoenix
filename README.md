@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Phoenix](https://github.com/Boostorg/Phoenix) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Phoenix%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Phoenix%3Abincrafters).
 
 ## For Users: Use this package
 

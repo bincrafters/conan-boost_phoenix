@@ -8,20 +8,20 @@ class BoostPhoenixConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["phoenix"]
-    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Bind/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Function/1.65.1@bincrafters/testing", \
-                      "Boost.Fusion/1.65.1@bincrafters/testing", \
-                      "Boost.Mpl/1.65.1@bincrafters/testing", \
-                      "Boost.Predef/1.65.1@bincrafters/testing", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
-                      "Boost.Proto/1.65.1@bincrafters/testing", \
-                      "Boost.Range/1.65.1@bincrafters/testing", \
-                      "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
-                      "Boost.Utility/1.65.1@bincrafters/testing"
+    requires =  "Boost.Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Bind/1.65.1@bincrafters/stable", \
+                      "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Core/1.65.1@bincrafters/stable", \
+                      "Boost.Function/1.65.1@bincrafters/stable", \
+                      "Boost.Fusion/1.65.1@bincrafters/stable", \
+                      "Boost.Mpl/1.65.1@bincrafters/stable", \
+                      "Boost.Predef/1.65.1@bincrafters/stable", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
+                      "Boost.Proto/1.65.1@bincrafters/stable", \
+                      "Boost.Range/1.65.1@bincrafters/stable", \
+                      "Boost.Smart_Ptr/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/stable", \
+                      "Boost.Utility/1.65.1@bincrafters/stable"
 
                       #assert1 bind3 config0 core2 function5 fusion5 mpl5 predef0 preprocessor0 proto8 range7 smart_ptr4 type_traits3 utility5
 

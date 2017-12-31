@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostPhoenixConan(ConanFile):
     name = "boost_phoenix"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-phoenix"
+    url = "https://github.com/bincrafters/conan-boost_phoenix"
 
     lib_short_names = ["phoenix"]
     is_header_only = True

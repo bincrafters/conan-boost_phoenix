@@ -4,27 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostPhoenixConan(base.BoostBaseConan):
     name = "boost_phoenix"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_phoenix"
-    lib_short_names = ["phoenix"]
-    header_only_libs = ["phoenix"]
-    b2_requires = [
-        "boost_assert",
-        "boost_bind",
-        "boost_config",
-        "boost_core",
-        "boost_function",
-        "boost_fusion",
-        "boost_mpl",
-        "boost_predef",
-        "boost_preprocessor",
-        "boost_proto",
-        "boost_range",
-        "boost_smart_ptr",
-        "boost_type_traits",
-        "boost_utility"
-    ]
+    version = "1.70.0"
